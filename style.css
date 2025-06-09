@@ -1,8 +1,166 @@
-h1 {
-  color: black;
-  text-align: right;
+body{
+  font-family:sans-serif;
+  background-color:lightgray;
+  justify-content: center; /* centers horizontally */
+      align-items: center; 
 }
 
-body {
-  background-color: lightblue;
+h1{
+font-family:Arial;
+text-align: center;
+text-shadow: 2px 2px 4px black
+
+}
+div {
+  display:inline;
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color:black;
+}
+
+
+h2{
+font-family:Arial;
+text-align: center;
+}
+h3{
+  font-family:Arial;
+  text-align:center;
+}
+
+nav {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #333;
+}
+nav a{
+  color:black;
+  margin:0 10px 0 10px;
+}
+
+
+
+div:last-child {
+  border-right: none;
+}
+
+div a {
+   display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+div a:hover:not(.active) {
+  background-color: darkgray;
+}
+
+.active {
+  background-color: black;
+}
+
+p{
+  text-align:center;
+  font-family:arial;
+   font-size: 20px;
+  
+  
+}
+
+ .center{
+
+      justify-content: center !important;  /* horizontal center */
+      align-items: center !important;      /* vertical center */
+    
+    }
+.container{
+  display:flex !important;
+}
+.column{
+  flex-direction: column;
+}
+  
+.column1{
+  flex:1;
+}
+
+img{
+  Width: 350px;
+  padding: 5px;
+  margin-left: 50px;  
+  margin-top: 20px;
+}
+
+
+ nav a{
+  font:20px;
+  
+ }
+
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 110px;
+}
+
+
+.card{
+  flex:1;
+  margin:10px;
+  padding:10px;
+  border:1px solid black;
+  text-align:center;
+  min-width: 180px;
+  max-width: 180px;
+  overflow:hidden;
+  box-shadow:2px 2px 2px black;
+}
+
+.highlight{
+  font-style:italic;
+  color:blue;
+}
+.heading{
+  font-weight:bold;
+}
+.card a{
+  text-decoration:none;
+  background-color:blue;
+  color:white;
+  border-radius:4px;
+  padding:6px;
+  box-shadow:2px 2px 2px black;
+}
+.card a:hover{
+  background-color:cornflowerblue;
+}
+
+.card img{
+  width:100%;
+}
+.item{
+  width:150px;
+  height:150px;
+  object-fit:cover;
+}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
